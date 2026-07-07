@@ -2,7 +2,7 @@ function sendToWhatsApp(){let e=document.getElementById("name").value.trim(),t=d
 
 *الاسم:* ${e}
 *رقم الجوال:* ${t}
-*تفاصيل المناسبة:* ${r}`,n=`https://wa.me/966507712688?text=${encodeURIComponent(a)}`,s=document.getElementById("whatsapp-toast");s.classList.remove("hidden"),setTimeout(()=>{s.classList.add("hidden"),window.open(n,"_blank")},3e3)}document.querySelectorAll(".gallery-image-container").forEach(e=>{e.addEventListener("click",function(){let e=this.querySelector(".gallery-image"),t=document.createElement("div");t.style.cssText=`
+*تفاصيل المناسبة:* ${r}`,n=`https://wa.me/966506807211?text=${encodeURIComponent(a)}`,s=document.getElementById("whatsapp-toast");s.classList.remove("hidden"),setTimeout(()=>{s.classList.add("hidden"),window.open(n,"_blank")},3e3)}document.querySelectorAll(".gallery-image-container").forEach(e=>{e.addEventListener("click",function(){let e=this.querySelector(".gallery-image"),t=document.createElement("div");t.style.cssText=`
                     position: fixed;
                     top: 0;
                     left: 0;
